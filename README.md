@@ -20,6 +20,7 @@ http://<your_host>:8080/forsecout and http://<your_host>:8080
 For every request to this url's the app will write a message in this format "<timestamp>: HttpRequest to /<specific routing>" to PV in /log called spring.log  
 
 Up the ELK
+
 6. run: docker-compose up -d (wait ~3-5 minuts)
 
 
