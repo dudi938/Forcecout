@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Application {
 
 
-	String LogFilePath = "log/spring.log";
+	String LogFilePath = "/log/spring.log";
 
 	@RequestMapping("/")
 	public String index() {
