@@ -9,17 +9,18 @@ prerequisites:
 
 
 Up the spring application
-1. clone the repo
-2. cd to Forcecout/Spring/complete
-3. run : chmod +x ./run.sh
-4. run: ./run.sh
+1. cd /
+2. clone the repo
+3. cd to Forcecout/Spring/complete
+4. run : chmod +x ./run.sh
+5. run: ./run.sh
 
 now you can access the spring app in 
 http://<your_host>:8080/forsecout and http://<your_host>:8080
 For every request to this url's the app will write a message in this format "<timestamp>: HttpRequest to /<specific routing>" to PV in /log called spring.log  
 
 Up the ELK
-5. run: docker-compose up -d (wait ~3-5 minuts)
+6. run: docker-compose up -d (wait ~3-5 minuts)
 
 
 
